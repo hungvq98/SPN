@@ -26,5 +26,9 @@ namespace Ex3.Controllers
 
             return View();
         }
+        public ActionResult LoginNRegister()
+        {
+            return View();
+        }
     }
 }

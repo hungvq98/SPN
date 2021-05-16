@@ -1,0 +1,2 @@
+C:\Users\Admin\Desktop\SPN\Ex3\obj\Debug\Ex3.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\SPN\Ex3\obj\Debug\Ex3.csproj.CoreCompileInputs.cache
