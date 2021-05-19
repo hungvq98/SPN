@@ -32,7 +32,11 @@ namespace Ex3.Models
         [StringLength(20)]
         [Column("Address", TypeName = "varchar")]
         public String Address { get; set; }
-        
+        [StringLength(100)]
+        [Column("Scores",TypeName ="int")]
+        public int Scores { get; set; }
+        [Column("Status",TypeName ="bit")]
+        public bool Status { get; set; }
 
     }
 }

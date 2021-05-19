@@ -30,5 +30,7 @@ namespace Ex3.Models
         [StringLength(200)]
         [Column("Active",TypeName ="bit")]
         public bool Active { get; set; }
+
+        public ICollection<HistoryCourse> HistoryCourses { get; set; }
     }
 }

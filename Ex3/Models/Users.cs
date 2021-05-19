@@ -25,5 +25,10 @@ namespace Ex3.Models
         [Column("Active",TypeName ="bit")]
         public bool Active { get; set; }
 
+        public ICollection<UserInfo> UserInfos { get; set; }
+        public ICollection<HistoryCourse> HistoryCourses { get; set; }
+        public ICollection<PostUser> PostUsers { get; set; }
+        public ICollection<Exam> Exams { get; set; }
+
     }
 }

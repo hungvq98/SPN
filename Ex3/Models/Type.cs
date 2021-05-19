@@ -12,13 +12,19 @@ namespace Ex3.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Column("ID",TypeName ="int")]
+        [Column("ID", TypeName = "int")]
         public int ID { get; set; }
-        [Column("TypeName",TypeName ="varchar")]
+        [Column("TypeName", TypeName = "varchar")]
         public String TypeName { get; set; }
         [StringLength(50)]
-        [Column("CourseID",TypeName ="int")]
-        public int Course { get; set; }
+        [Column("Content", TypeName = "varchar")]
+        public string Content { get; set; }
+        [StringLength(500)]
+        [Column("Active", TypeName = "bit")]
+        public bool Active { get; set; }
+
+        public ICollection<PostUser> PostUsers { get; set; }
+        public ICollection<PostAdmin> PostAdmins { get; set; }
 
     }
 }

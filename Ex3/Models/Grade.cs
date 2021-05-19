@@ -19,6 +19,9 @@ namespace Ex3.Models
         [StringLength(50)]
         [Column("ContentGrade",TypeName ="varchar")]
         public String ContentGrade { get; set; }
-       
+        [Column("Active",TypeName ="bit")]
+        public bool Active { get; set; }
+
+        public ICollection<Course> Courses { get; set; }
     }
 }
