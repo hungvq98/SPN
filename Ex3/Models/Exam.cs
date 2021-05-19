@@ -14,8 +14,8 @@ namespace Ex3.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("ID", TypeName = "int")]
         public int ID { get; set; }
-        [Column("Nameofquesion", TypeName = "varchar")]
-        public string Nameofquenstion { get; set; }
+        [Column("Nameofquestion", TypeName = "varchar")]
+        public string Nameofquestion { get; set; }
         [StringLength(500)]
         [Column("AnswerA", TypeName = "varchar")]
         public string AnswerA { get; set; }
