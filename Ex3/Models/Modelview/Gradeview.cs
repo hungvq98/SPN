@@ -1,3 +1,4 @@
+<<<<<<< HEAD:Ex3/Models/Type.cs
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -27,4 +28,20 @@ namespace Ex3.Models
         public ICollection<PostAdmin> PostAdmins { get; set; }
 
     }
+=======
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace Ex3.Models.Modelview
+{
+    public class Gradeview
+    {
+        public int ID { get; set; }
+        public string name { get; set; }
+        public string content { get; set; }
+        public bool active { get; set; }
+    }
+>>>>>>> main:Ex3/Models/Modelview/Gradeview.cs
 }

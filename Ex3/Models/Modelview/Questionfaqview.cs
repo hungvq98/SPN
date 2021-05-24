@@ -1,3 +1,4 @@
+<<<<<<< HEAD:Ex3/Models/Grade.cs
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -24,4 +25,19 @@ namespace Ex3.Models
 
         public ICollection<Course> Courses { get; set; }
     }
+=======
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace Ex3.Models.Modelview
+{
+    public class Questionfaqview
+    {
+        public int ID { get; set; }
+        public string namequestion { get; set; }
+        public string answer { get; set; }
+    }
+>>>>>>> main:Ex3/Models/Modelview/Questionfaqview.cs
 }
